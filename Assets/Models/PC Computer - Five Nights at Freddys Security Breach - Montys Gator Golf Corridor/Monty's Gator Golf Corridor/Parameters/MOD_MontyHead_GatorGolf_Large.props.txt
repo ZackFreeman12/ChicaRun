@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/ShadingAssets/Materials/MAT_MontyHead_GatorGolf_Large_Corridor.MAT_MontyHead_GatorGolf_Large_Corridor'
+    Materials[1] = MaterialInstanceConstant'/Game/ShadingAssets/Materials/MAT_MontyHead_GatorGolf_Large_Teeth.MAT_MontyHead_GatorGolf_Large_Teeth'
+    Materials[2] = MaterialInstanceConstant'/Game/ShadingAssets/Materials/MAT_MontyHead_GatorGolf_Large_Head.MAT_MontyHead_GatorGolf_Large_Head'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/ShadingAssets/Materials/MAT_MontyHead_GatorGolf_Large_Corridor.MAT_MontyHead_GatorGolf_Large_Corridor'
+        MaterialSlotName = MAT_MontyHead_GatorGolf_Large_Corridor
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1345.98, 0, 4155.96, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/ShadingAssets/Materials/MAT_MontyHead_GatorGolf_Large_Teeth.MAT_MontyHead_GatorGolf_Large_Teeth'
+        MaterialSlotName = MAT_MontyHead_GatorGolf_Large_Teeth
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 916.671, 0, 4163.43, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/ShadingAssets/Materials/MAT_MontyHead_GatorGolf_Large_Head.MAT_MontyHead_GatorGolf_Large_Head'
+        MaterialSlotName = MAT_MontyHead_GatorGolf_Large_Head
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 4163.96, 3129.44, 4140.96, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=82.8702, Y=-33.7373, Z=684.996 }
+    BoxExtent = { X=611.008, Y=1074.32, Z=818.848 }
+    SphereRadius = 1482.57
+}

@@ -1,0 +1,64 @@
+Parent = Material3'/Game/ShadingAssets/Materials/MI_PackedOpaque_MASTER_WithEmissive.MI_PackedOpaque_MASTER_WithEmissive'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Base_Color }
+        ParameterValue = Texture2D'/Game/ShadingAssets/Textures/TEX_GGMontyHead_Corridor_MAT_BaseColor.TEX_GGMontyHead_Corridor_MAT_BaseColor'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Normal }
+        ParameterValue = Texture2D'/Game/ShadingAssets/Textures/TEX_GGMontyHead_Corridor_MAT_Normal.TEX_GGMontyHead_Corridor_MAT_Normal'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=AO_Rough_Metal }
+        ParameterValue = Texture2D'/Game/ShadingAssets/Textures/TEX_GGMontyHead_Corridor_MAT_OcclusionRoughnessMetallic.TEX_GGMontyHead_Corridor_MAT_OcclusionRoughnessMetallic'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Emissive }
+        ParameterValue = Texture2D'/Game/ShadingAssets/Textures/TEX_GGMontyHead_Corridor_MAT_Emissive.TEX_GGMontyHead_Corridor_MAT_Emissive'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

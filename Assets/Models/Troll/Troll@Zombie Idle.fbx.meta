@@ -1,0 +1,686 @@
+fileFormatVersion: 2
+guid: 62586433debb9254b8353523d5b3cda3
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Troll01:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Troll01:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Troll@Zombie Idle(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:0
+      parentName: Troll@Zombie Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Troll01:1
+      parentName: Troll@Zombie Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Troll01:Hips
+      parentName: Troll@Zombie Idle(Clone)
+      position: {x: -0.008012152, y: 8.407669, z: -0.32088393}
+      rotation: {x: 0.07914229, y: 0.05673795, z: 0.009188394, w: 0.9952049}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightUpLeg
+      parentName: Troll01:Hips
+      position: {x: 1.0331136, y: -0.577348, z: 0.05987354}
+      rotation: {x: 0.107725434, y: 0.13382609, z: 0.9847637, w: -0.026950026}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightLeg
+      parentName: Troll01:RightUpLeg
+      position: {x: -0.000000018344661, y: 3.4820068, z: 0.000000016865446}
+      rotation: {x: -0.14043652, y: -0.07327908, z: 0.025196947, w: 0.9870527}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightFoot
+      parentName: Troll01:RightLeg
+      position: {x: 0.0000000012704422, y: 3.6200652, z: -0.0000000078184685}
+      rotation: {x: 0.5069501, y: -0.0595738, z: -0.04059128, w: 0.85895574}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightToeBase
+      parentName: Troll01:RightFoot
+      position: {x: -0.0000000074344984, y: 1.3976666, z: -0.000000049233122}
+      rotation: {x: 0.27625018, y: 0.009233177, z: -0.0031280315, w: 0.9610363}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightToe_End
+      parentName: Troll01:RightToeBase
+      position: {x: -0.0000000042632378, y: 0.68837225, z: -1.7927729e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftUpLeg
+      parentName: Troll01:Hips
+      position: {x: -1.0331136, y: -0.577348, z: 0.027256431}
+      rotation: {x: -0.15951388, y: 0.1300804, z: 0.97612983, w: 0.069317736}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftLeg
+      parentName: Troll01:LeftUpLeg
+      position: {x: 0.000000013566559, y: 3.4855466, z: -0.0000000030222114}
+      rotation: {x: -0.1657877, y: 0.04690121, z: -0.007110355, w: 0.9850199}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftFoot
+      parentName: Troll01:LeftLeg
+      position: {x: 0.0000000066878925, y: 3.6204522, z: -0.00000001217445}
+      rotation: {x: 0.53789407, y: 0.0017178392, z: 0.08277848, w: 0.8389367}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftToeBase
+      parentName: Troll01:LeftFoot
+      position: {x: -0.000000034127105, y: 1.403005, z: 0.000000021644272}
+      rotation: {x: 0.2750757, y: -0.0018603852, z: 0.0011603308, w: 0.9614201}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftToe_End
+      parentName: Troll01:LeftToeBase
+      position: {x: -0.000000004863812, y: 0.6773603, z: -3.7829168e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:Spine
+      parentName: Troll01:Hips
+      position: {x: -0, y: 1.0417706, z: -0.0117494585}
+      rotation: {x: -0.010461796, y: 0.012544891, z: -0.0052381703, w: 0.9998529}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:Spine1
+      parentName: Troll01:Spine
+      position: {x: -0, y: 1.2154758, z: 2.9120656e-10}
+      rotation: {x: -0.007922657, y: 0.009779715, z: -0.0028988696, w: 0.9999166}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:Spine2
+      parentName: Troll01:Spine1
+      position: {x: -0, y: 1.3891155, z: 2.2638345e-10}
+      rotation: {x: -0.007946726, y: 0.009624599, z: -0.0030325872, w: 0.99991757}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:Neck
+      parentName: Troll01:Spine2
+      position: {x: -0, y: 1.5627543, z: -0.00000008119689}
+      rotation: {x: -0.19064261, y: -0.016980743, z: 0.006315788, w: 0.9814923}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:Head
+      parentName: Troll01:Neck
+      position: {x: -0, y: 0.7307849, z: 0.91834104}
+      rotation: {x: -0.018037485, y: -0.017391203, z: 0.011539774, w: 0.9996195}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:HeadTop_End
+      parentName: Troll01:Head
+      position: {x: -0, y: -1.5212268, z: -1.9116497}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightShoulder
+      parentName: Troll01:Spine2
+      position: {x: 0.80403817, y: 1.2225083, z: -0.008239088}
+      rotation: {x: 0.58560723, y: 0.41833344, z: -0.559198, w: 0.41153234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightArm
+      parentName: Troll01:RightShoulder
+      position: {x: -6.3922555e-11, y: 1.7154081, z: 0.0000000052958784}
+      rotation: {x: -0.14263502, y: 0.33444932, z: -0.047710765, w: 0.9303347}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightForeArm
+      parentName: Troll01:RightArm
+      position: {x: -0.0000000024764104, y: 3.1736825, z: 0.0000000013139105}
+      rotation: {x: -0.0065779523, y: 0.00096967793, z: 0.021970099, w: 0.9997366}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightHand
+      parentName: Troll01:RightForeArm
+      position: {x: 0.0000000036327934, y: 4.0395255, z: 0.000000079865465}
+      rotation: {x: -0.16405173, y: -0.42579496, z: 0.23266648, w: 0.85886663}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightHandMiddle1
+      parentName: Troll01:RightHand
+      position: {x: 0.26614684, y: 0.65578794, z: -0.023174934}
+      rotation: {x: -0.095471345, y: 0.022725785, z: -0.2086032, w: 0.973064}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightHandMiddle2
+      parentName: Troll01:RightHandMiddle1
+      position: {x: -0.020296091, y: 0.39041668, z: -0.000000013776923}
+      rotation: {x: 0.032390006, y: -0.0060422053, z: 0.026451675, w: 0.99910694}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightHandMiddle3
+      parentName: Troll01:RightHandMiddle2
+      position: {x: 0.0023548645, y: 0.33419135, z: -4.3614476e-10}
+      rotation: {x: 0.0382582, y: 0.009055891, z: 0.024534654, w: 0.9989257}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightHandMiddle4
+      parentName: Troll01:RightHandMiddle3
+      position: {x: 0.017941225, y: 0.28442547, z: 0.0000000046212394}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightHandThumb1
+      parentName: Troll01:RightHand
+      position: {x: -0.01959489, y: 0.27009487, z: 0.21289939}
+      rotation: {x: 0.13061675, y: -0.020497018, z: 0.105150975, w: 0.98562795}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightHandThumb2
+      parentName: Troll01:RightHandThumb1
+      position: {x: -0.008821, y: 0.2754373, z: 0.0000000011305382}
+      rotation: {x: -0.003733805, y: 0.22626063, z: -0.0028647305, w: 0.9740554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightHandThumb3
+      parentName: Troll01:RightHandThumb2
+      position: {x: 0.00850584, y: 0.40879738, z: -0.0000000011861278}
+      rotation: {x: -0.017295146, y: 0.11136647, z: -0.043147843, w: 0.99269164}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightHandThumb4
+      parentName: Troll01:RightHandThumb3
+      position: {x: 0.00031516168, y: 0.42641383, z: 0.0000000027681528}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightHandIndex1
+      parentName: Troll01:RightHand
+      position: {x: -0.26614684, y: 0.6664679, z: -0.027725272}
+      rotation: {x: -0.09321827, y: 0.03440379, z: -0.19008754, w: 0.9767259}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightHandIndex2
+      parentName: Troll01:RightHandIndex1
+      position: {x: -0.0045495844, y: 0.37791035, z: -0.000000013271604}
+      rotation: {x: 0.032325123, y: -0.0016129572, z: 0.0037308782, w: 0.99946916}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightHandIndex3
+      parentName: Troll01:RightHandIndex2
+      position: {x: -0.000045826317, y: 0.34404176, z: 0.0000000029934109}
+      rotation: {x: 0.038000476, y: 0.0023310469, z: 0.005325329, w: 0.9992609}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:RightHandIndex4
+      parentName: Troll01:RightHandIndex3
+      position: {x: 0.0045954115, y: 0.29307288, z: 0.0000000021916278}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftShoulder
+      parentName: Troll01:Spine2
+      position: {x: -0.80403817, y: 1.222409, z: 0.0005629956}
+      rotation: {x: 0.6045149, y: -0.40808105, z: 0.54420793, w: 0.4145714}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftArm
+      parentName: Troll01:LeftShoulder
+      position: {x: -9.012922e-11, y: 1.7154083, z: -0.000000007344697}
+      rotation: {x: -0.10642795, y: -0.42333618, z: 0.10486651, w: 0.8935674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftForeArm
+      parentName: Troll01:LeftArm
+      position: {x: -0.0000000028700236, y: 3.1759768, z: 0.000000059277216}
+      rotation: {x: -0.0058453055, y: -0.0013299877, z: -0.016403295, w: 0.99984753}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftHand
+      parentName: Troll01:LeftForeArm
+      position: {x: 0.000000005037932, y: 4.039654, z: -0.00000005550447}
+      rotation: {x: -0.014070381, y: 0.27766034, z: -0.20096372, w: 0.93931913}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftHandMiddle1
+      parentName: Troll01:LeftHand
+      position: {x: -0.26058307, y: 0.6224956, z: -0.020663349}
+      rotation: {x: -0.093879424, y: -0.022732975, z: 0.2056189, w: 0.9738535}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftHandMiddle2
+      parentName: Troll01:LeftHandMiddle1
+      position: {x: 0.014875185, y: 0.40406, z: 0.0000000125982895}
+      rotation: {x: 0.033180814, y: 0.0047073723, z: -0.0164052, w: 0.9993037}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftHandMiddle3
+      parentName: Troll01:LeftHandMiddle2
+      position: {x: -0.0011006143, y: 0.3643098, z: 1.2434839e-10}
+      rotation: {x: 0.03850858, y: -0.0076097483, z: -0.017635172, w: 0.9990737}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftHandMiddle4
+      parentName: Troll01:LeftHandMiddle3
+      position: {x: -0.013774579, y: 0.298229, z: 0.000000003095035}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftHandThumb1
+      parentName: Troll01:LeftHand
+      position: {x: 0.021922274, y: 0.28634208, z: 0.24702917}
+      rotation: {x: -0.05949576, y: 0.025550615, z: -0.19009024, w: 0.97962904}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftHandThumb2
+      parentName: Troll01:LeftHandThumb1
+      position: {x: 0.0086851455, y: 0.30292162, z: -0.000000010701245}
+      rotation: {x: -0.00027150277, y: 0.007766323, z: -0.005944506, w: 0.9999522}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftHandThumb3
+      parentName: Troll01:LeftHandThumb2
+      position: {x: -0.010988505, y: 0.3991909, z: -0.0000000011276268}
+      rotation: {x: -0.0034810351, y: 0.0088536, z: 0.050566453, w: 0.9986754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftHandThumb4
+      parentName: Troll01:LeftHandThumb3
+      position: {x: 0.0023033575, y: 0.37539768, z: 0.000000021991395}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftHandIndex1
+      parentName: Troll01:LeftHand
+      position: {x: 0.26058307, y: 0.5993836, z: -0.018244445}
+      rotation: {x: -0.092310436, y: -0.029765826, z: 0.17784461, w: 0.9792671}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftHandIndex2
+      parentName: Troll01:LeftHandIndex1
+      position: {x: -0.00871957, y: 0.41667193, z: 0.00000001697836}
+      rotation: {x: 0.033184737, y: -0.0027221334, z: 0.014114222, w: 0.99934584}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftHandIndex3
+      parentName: Troll01:LeftHandIndex2
+      position: {x: 0.0005290384, y: 0.35996088, z: -0.000000005232364}
+      rotation: {x: 0.038419567, y: 0.00470855, z: 0.015655244, w: 0.999128}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Troll01:LeftHandIndex4
+      parentName: Troll01:LeftHandIndex3
+      position: {x: 0.00819053, y: 0.3165711, z: -0.000000010546889}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

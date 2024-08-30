@@ -1,0 +1,32 @@
+.button {
+    font-size: 48px;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 75px;
+    background-image: url('project://database/Assets/UI/menuButton.jpg?fileID=2800000&guid=1f539f2bc4f0d5742baf4c162aa0dc0a&type=3#menuButton');
+    color: rgba(255, 255, 255, 255);
+    -unity-text-outline-color: rgba(0, 0, 0, 255);
+    -unity-text-outline-width: 0;
+    -unity-font-definition: url('project://database/Assets/UI/Jersey_15,Roboto/Jersey_15/Jersey15-Regular%20SDF.asset?fileID=11400000&guid=17dc84a893f03ba44b9efb8d70539b4a&type=2#Jersey15-Regular SDF');
+    border-top-left-radius: 19px;
+    border-bottom-left-radius: 19px;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgba(255, 255, 255, 255);
+    border-right-color: rgba(255, 255, 255, 255);
+    border-top-color: rgba(255, 255, 255, 255);
+    border-bottom-color: rgba(255, 255, 255, 255);
+    -unity-text-align: upper-center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow: visible;
+    visibility: visible;
+    display: flex;
+    opacity: 1;
+    -unity-background-image-tint-color: rgba(192, 192, 192, 255);
+    -unity-background-scale-mode: scale-and-crop;
+}
