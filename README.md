@@ -1,5 +1,5 @@
 
-Chica Run
+### Chica Run
 
 3D Mobile endless runner
 
