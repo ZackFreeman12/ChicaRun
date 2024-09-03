@@ -114,7 +114,7 @@ namespace ChicaRun
 
                     if (endTouchPosition.x < startTouchPosition.x && (startTouchPosition.x - endTouchPosition.x) > swipeLengthRequired)
                     {
-                        if (rb.transform.position.x! >= -1)
+                        if (rb.transform.position.x! >= -1 && horizontalSwipeLeft > verticalSwipeUp && horizontalSwipeLeft > verticalSwipeDown)
                         {
 
                             MoveLeft();
@@ -125,7 +125,7 @@ namespace ChicaRun
 
                     if (endTouchPosition.x > startTouchPosition.x && (endTouchPosition.x - startTouchPosition.x) > swipeLengthRequired)
                     {
-                        if (rb.transform.position.x! <= 1)
+                        if (rb.transform.position.x! <= 1 && horizontalSwipeRight > verticalSwipeUp && horizontalSwipeRight > verticalSwipeDown)
                         {
 
                             MoveRight();
@@ -135,12 +135,19 @@ namespace ChicaRun
 
                     if (endTouchPosition.y < startTouchPosition.y && (startTouchPosition.y - endTouchPosition.y) > swipeLengthRequired)
                     {
-                        Slide();
+                        if (verticalSwipeDown > horizontalSwipeRight && verticalSwipeDown > horizontalSwipeLeft)
+                        {
+                            Slide();
+                        }
+
                     }
 
                     if (endTouchPosition.y > startTouchPosition.y && (endTouchPosition.y - startTouchPosition.y) > swipeLengthRequired)
                     {
-                        Jump();
+                        if (verticalSwipeUp > horizontalSwipeRight && verticalSwipeUp > horizontalSwipeLeft)
+                        {
+                            Jump();
+                        }
                     }
 
                 }
