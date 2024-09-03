@@ -25,12 +25,13 @@ namespace ChicaRun
         private bool slide;
         private Vector2 startTouchPosition;
         private Vector2 endTouchPosition;
+
         private bool dead = false;
 
         [SerializeField]
         private Animator animator;
 
-        private float swipeLengthRequired = 100f;
+        private float swipeLengthRequired = 150f;
 
         void Start()
         {
@@ -105,6 +106,11 @@ namespace ChicaRun
                     Debug.Log(endTouchPosition);
 
                     endTouchPosition = Input.GetTouch(0).position;
+                    float horizontalSwipeLeft = startTouchPosition.x - endTouchPosition.x;
+                    float verticalSwipeDown = startTouchPosition.y - endTouchPosition.y;
+                    float horizontalSwipeRight = endTouchPosition.x - startTouchPosition.x;
+                    float verticalSwipeUp = endTouchPosition.y - startTouchPosition.y;
+
 
                     if (endTouchPosition.x < startTouchPosition.x && (startTouchPosition.x - endTouchPosition.x) > swipeLengthRequired)
                     {
